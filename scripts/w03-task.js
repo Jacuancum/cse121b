@@ -59,12 +59,16 @@ let num = document.querySelector('#array');
 num.textContent = numbersArray;
 
 /* Output Odds Only Array */
-
+document.querySelector('#odds').innerHTML = numbersArray.filter(number => number % 2 === 1);
 
 /* Output Evens Only Array */
+document.querySelector('#evens').innerHTML = numbersArray.filter(number => number % 2 === 0);
 
 /* Output Sum of Org. Array */
+document.querySelector('#sumOfArray').innerHTML = numbersArray.reduce((sum, number) => sum + number);
 
 /* Output Multiplied by 2 Array */
+document.querySelector('#multiplied').innerHTML = numbersArray.map(number => number * 2);
 
 /* Output Sum of Multiplied by 2 Array */
+document.querySelector('#sumOfMultiplied').innerHTML = numbersArray.map(number => number * 2).reduce((sum, number) => sum + number);

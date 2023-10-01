@@ -48,12 +48,18 @@ document.querySelector('#divideNumbers').addEventListener('click', divideNumbers
 
 
 /* Decision Structure */
-
+let currentYear = new Date().getFullYear();
+let yearElement = document.querySelector('#year');
+yearElement.textContent = currentYear;
 
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
+let numbersArray = [1,2,3,4,5,6,7,8,9,10,11,12,13];
+let num = document.querySelector('#array');
+num.textContent = numbersArray;
 
 /* Output Odds Only Array */
+
 
 /* Output Evens Only Array */
 

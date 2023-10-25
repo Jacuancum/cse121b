@@ -11,3 +11,45 @@ p {
     margin: auto;
     margin-top: 20%;
 }
+
+#guess_button:hover {
+    color: rgb(0, 199, 0);
+}
+
+#attempts_box {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 10px;
+    background-color: #00ffbfd7;
+    width: 50%;
+    margin: auto;
+}
+
+#attempts {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+#word_box {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#input_box {
+    text-align: center;
+    padding: 20px;
+}
+
+#letter_input {
+    font-size: 18px;
+    width: 30px;
+}
+
+#guess_button {
+    font-size: 18px;
+}

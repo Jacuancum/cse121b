@@ -7,7 +7,27 @@
     <link rel="stylesheet" href="styles/final_project.css">
 </head>
 <body>
-    
+    <div class="content">
+        <h1>Word Guessing Game</h1>
+        <p>Enter a letter, then click submit.</p>
+        <p>You can guess one letter at a time.</p>
+
+        <div id="attempts_box">
+            <p>Guess:</p>
+            <span id="attempts">0</span>
+        </div>
+
+        <div id="word_box">
+            <span id="word_display"></span>
+        </div>
+        <div id="input_box">
+            <input type="text" id="letter_input" maxlength="1">
+            <button id="guess_button">Submit</button>
+        </div>
+        <div id="message_box">
+            <p id="message"></p>
+        </div>
+    </div>
     <script type="module" src="final_project.js"></script>
 </body>
 </html>

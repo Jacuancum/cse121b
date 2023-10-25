@@ -3,7 +3,7 @@ export function makeGuess(letter) {
         return;
     }
 
-    const letterIndex = hiddenWord.indexOf(letter);
+    let letterIndex = hiddenWord.indexOf(letter);
     if (letterIndex === -1) {
         attempts++;
         Display();

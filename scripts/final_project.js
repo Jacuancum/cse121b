@@ -8,7 +8,6 @@ let attempts;
 
 function theGame() {
     hiddenWord = chooseRandomWord(words);
-    
     guessedWord = Array(hiddenWord.length).fill("_");
     attempts = 0;
     updateDisplay();

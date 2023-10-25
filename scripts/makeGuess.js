@@ -6,7 +6,7 @@ export function makeGuess(letter) {
     const letterIndex = hiddenWord.indexOf(letter);
     if (letterIndex === -1) {
         attempts++;
-        updateDisplay();
+        Display();
     } else {
         while (letterIndex !== -1) {
             guessedWord[letterIndex] = letter;
@@ -14,7 +14,7 @@ export function makeGuess(letter) {
         }
     }
 
-    updateDisplay();
+    Display();
     document.getElementById("letter_input").value = "";
     if (guessedWord.join("") === hiddenWord) {
         document.getElementById("message").textContent = "Congratulations! You guessed the word.";

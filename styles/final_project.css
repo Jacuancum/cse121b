@@ -53,3 +53,8 @@ p {
 #guess_button {
     font-size: 18px;
 }
+
+#message {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
